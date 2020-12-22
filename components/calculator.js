@@ -33,7 +33,7 @@ export default function Calculator() {
           type="number"
           name="slope"
           label="Desnivell"
-          placeholder="600"
+          placeholder="0"
           unit="metres"
           onChange={handleSlopeChange}
           value={slope}
@@ -42,7 +42,7 @@ export default function Calculator() {
           type="number"
           name="distance"
           label="Distància"
-          placeholder="10"
+          placeholder="0"
           unit="kilòmetres"
           onChange={handleDistanceChange}
           value={distance}
