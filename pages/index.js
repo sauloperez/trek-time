@@ -1,5 +1,5 @@
 import Nav from '../components/nav'
-import Input from '../components/input'
+import Calculator from '../components/calculator'
 
 export default function IndexPage() {
   return (
@@ -12,29 +12,7 @@ export default function IndexPage() {
           <p className="text-center text-gray-500">Calcula quina durada té l'excursió</p>
         </div>
 
-        <div className="mt-14 max-w-xs mx-auto">
-          <div className="grid gap-6">
-            <Input
-              name="slope"
-              label="Desnivell"
-              placeholder="600"
-              unit="metres"
-            />
-            <Input
-              name="distance"
-              label="Distància"
-              placeholder="10"
-              unit="kilòmetres"
-            />
-
-            <div>
-              <p className="text-gray-400">Temps total</p>
-              <div className="text-4xl font-medium text-gray-700">
-                7h 30m
-              </div>
-            </div>
-          </div>
-        </div>
+        <Calculator />
       </div>
     </div>
   )
