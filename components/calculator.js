@@ -62,8 +62,8 @@ export default function Calculator() {
           />
         </div>
 
-        <div className="flex p-6">
-          <div className="mr-6 space-y-1">
+        <div className="flex flex-wrap p-6">
+          <div className="mr-6 space-y-1 mb-2">
             <div>
               <span className="font-medium text-lg text-gray-700">{decimalToTime(up_time)}</span>
               <span className="ml-1 text-gray-400 text-2xl font-mono">&#8599;</span>
