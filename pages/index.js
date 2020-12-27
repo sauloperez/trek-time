@@ -9,7 +9,7 @@ export default function IndexPage() {
           <h1 className="text-5xl text-center text-gray-800 dark:text-gray-100">
             Trek Time
           </h1>
-          <p className="text-center text-gray-500">Calcula quina durada té l'excursió</p>
+          <p className="text-center text-gray-500">Calcula la durada de la teva ascensió</p>
         </div>
 
         <Calculator />
