@@ -40,8 +40,8 @@ export default function Calculator() {
 
   return (
     <div className="mt-14 max-w-xs mx-auto">
-      <div className="grid gap-10">
-        <div className="grid gap-6">
+      <div className="grid gap-4">
+        <div className="grid gap-6 px-6 py-8 rounded border border-gray-200 bg-white shadow">
           <Input
             type="number"
             name="slope"
@@ -62,7 +62,7 @@ export default function Calculator() {
           />
         </div>
 
-        <div className="flex">
+        <div className="flex p-6">
           <div className="mr-6 space-y-1">
             <div>
               <span className="font-medium text-lg text-gray-700">{decimalToTime(up_time)}</span>
